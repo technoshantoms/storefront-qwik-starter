@@ -50,18 +50,7 @@ export default component$(() => {
 				<div class="bg-zinc-100 text-gray-600 shadow-inner text-center text-sm py-1 px-2 xl:px-0">
 					<div class="max-w-6xl mx-2 h-5 min-h-full md:mx-auto flex items-center justify-between my-1">
 						<div class="flex justify-between items-center w-full">
-							<div>
-								<p class="hidden sm:block">
-									{$localize`Exclusive: Get your own`}{' '}
-									<a
-										href="https://github.com/vendure-ecommerce/storefront-qwik-starter"
-										target="_blank"
-										class="underline"
-									>
-										{$localize`FREE storefront starter kit`}
-									</a>
-								</p>
-							</div>
+							
 							<div class="flex mr-[60px] 2xl:mr-0">
 								<a
 									href={appState.customer.id !== CUSTOMER_NOT_DEFINED_ID ? '/account' : '/sign-in'}
