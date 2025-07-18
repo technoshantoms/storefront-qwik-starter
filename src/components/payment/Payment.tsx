@@ -19,7 +19,7 @@ export default component$<{ onForward$: QRL<() => void> }>(({ onForward$ }) => {
 					{method.code === 'standard-payment' && (
 						<>
 							<p class="text-gray-600 text-sm p-6">
-								{$localize`This is a dummy payment for demonstration purposes only`}
+								{$localize`Processed by peach-payment solution`}
 							</p>
 							<button
 								class="flex px-6 bg-primary-600 hover:bg-primary-700 items-center justify-center space-x-2 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"

@@ -13,7 +13,7 @@ export const Head = component$(() => {
 		<head>
 			<meta charSet="utf-8" />
 			<meta name="viewport" content="width=device-width, initial-scale=1" />
-			<meta name="theme-color" content="#1D4ED8" />
+			<meta name="theme-color" content="#937a31" />
 			<title>{head.title || DEFAULT_METADATA_TITLE}</title>
 
 			<link rel="manifest" href="/manifest.json" />
