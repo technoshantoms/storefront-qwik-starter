@@ -10,10 +10,9 @@ export const IMAGE_RESOLUTIONS = [1000, 800, 600, 400];
 export const HOMEPAGE_IMAGE = '/homepage.webp';
 export const DEFAULT_METADATA_URL = 'https://shop.acloudbank.com/';
 export const DEFAULT_METADATA_TITLE = 'Satia Network Storefront';
-export const DEFAULT_METADATA_DESCRIPTION =
-	'A headless commerce storefront starter kit built with Vendure & Qwik';
-export const DEFAULT_METADATA_IMAGE = 'https://qwik-storefront.vendure.io/social-image.png';
+export const DEFAULT_METADATA_DESCRIPTION = 'High perfomant e-commerce storefront';
+export const DEFAULT_METADATA_IMAGE = 'https://shop.satialimited.com/social-image.png';
 export const DEFAULT_LOCALE = 'en';
-export const DEV_API = ENV_VARIABLES.VITE_VENDURE_DEV_URL || 'http://localhost:3000';
-export const PROD_API = ENV_VARIABLES.VITE_VENDURE_PROD_URL || 'http://localhost:3000';
+export const DEV_API = ENV_VARIABLES.VITE_VENDURE_DEV_URL || 'https://test.acloudbank.com';
+export const PROD_API = ENV_VARIABLES.VITE_VENDURE_PROD_URL || 'https://bend.acloudbank.com';
 export const LOCAL_API = ENV_VARIABLES.VITE_VENDURE_LOCAL_URL || 'http://localhost:3000';
