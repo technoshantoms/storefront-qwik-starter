@@ -65,8 +65,8 @@ export default component$(() => {
 					{isEnvVariableEnabled('VITE_IS_READONLY_INSTANCE') && (
 						<div class="mb-6 bg-yellow-50 border border-yellow-400 text-yellow-800 rounded p-4 text-center text-sm">
 							<p>
-								Account registration is not supported by the demo Vendure instance. In order to use
-								it, please connect to your own local / production instance.
+								Account registration is not supported once we activate live eshop instance. In order
+								to use it, please connect to your own local / production instance.
 							</p>
 						</div>
 					)}
